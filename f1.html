@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio Website - Easy Tutorials</title>
+<link rel="stylesheet" href="f1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0-beta3/css/all.min.css" integrity="sha512-z+1yI7plH/b4fJjtDO9EMgXyRIqVSDxYlVhq5fdzYHR5A9WCSzUy/ea5uVu1K2u4CCS7wXTcTrlFANJajQ3R3A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                 <li><a href="#header">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#portfolio">Interests</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                 <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CSE-Undergraduate</p>
+                <h1>Hi, I'm <span>Kavya</span> <br>from Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------about---- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="bgk.png" alt="Kavya's Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Greetings! My name is Kavya, and I'm delighted to share a little about myself with you. I was born and raised in the vibrant city of Hyderabad, a place that has not only shaped my character but also fostered my love for diversity and culture. Currently, I'm in the midst of an exciting journey as a third-year B.Tech student at CMR Institute of Technology, Hyderabad. Pursuing this degree has been a rewarding experience that's allowing me to explore my passion for technology and innovation. The campus environment, with its blend of academic excellence and extracurricular activities, has played a pivotal role in shaping my holistic growth.</p> 
+                    
+                    <!-- Tab Titles -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <!-- Tab Contents -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Advanced</li>
+                            <li><span>Java</span><br>Intermediate</li>
+                            <li><span>C++</span><br>Intermediate</li>
+                        </ul>
+                    </div>  
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>FullStack Intern At Swecha Summer Internship</span><br>Android Development</li>
+                         
+                        </ul>
+                    </div> 
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B-Tech</span><br>CMR Institute of Technology With CGPA of 7.5</li>
+                            <li><span>Intermediate</span><br>Infant Jesus Junior college with 784 Mark's</li>
+                            <li><span>SSC</span><br>Infant Jesus International School with CGPA of 9.2</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------portfolio----- -->
+       <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Interests</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Coding</h3>
+                        <p>I possess strong coding skills for problem-solving.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Problem solving</h3>
+                        <p>I excel in problem-solving skills.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Web-designing</h3>
+                        <p>I have a foundational understanding of web designing..</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+    <!-- -------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i> tanirukavyasri@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="htpps://"><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1DmxaVI7ton9EHidwH7YhDDK7DaONJZcD/view?usp=drivesdk" target="_blank">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Kavya. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        // Smooth scroll to sections when clicking navigation links
+        const navLinks = document.querySelectorAll('nav ul li a');
+    
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+    
+                window.scrollTo({
+                    top: targetElement.offsetTop - 50,
+                    behavior: 'smooth',
+                });
+            });
+        });
+    
+        // Form submission handling
+        const contactForm = document.querySelector('form');
+    
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // You can add code here to handle the form submission, e.g., sending an email or saving to a database.
+            alert('Form submitted!');
+        });
+    
+        // Mobile navigation toggle
+        const sideMenu = document.getElementById('sidemenu');
+        const openMenuBtn = document.querySelector('.fa-bars');
+        const closeMenuBtn = document.querySelector('.fa-times');
+    
+        openMenuBtn.addEventListener('click', () => {
+            sideMenu.style.right = '0';
+        });
+    
+        closeMenuBtn.addEventListener('click', () => {
+            sideMenu.style.right = '-200px';
+        });
+    </script>
+</body>
+</html>
