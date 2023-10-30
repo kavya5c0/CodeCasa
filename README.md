@@ -1,5 +1,5 @@
 # CodeCasa
-******************************************************************************PERSONAL PORTFOLIO******************************************************************************************
+PERSONAL PORTFOLIO
 🌟 Welcome to [Taniru Kavyasri]'s Personal Portfolio 🌟
 
 👋 About Me: I'm [Taniru Kavyasri], a passionate [B-Tech-CSE-Undergraduate] based in [Hyderabad]. This portfolio is a reflection of my journey, showcasing my work, skills, and creative endeavors.
